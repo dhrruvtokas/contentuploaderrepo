@@ -1,0 +1,20 @@
+<html> 
+<head> 
+<title> Upload Prototpe </title>
+</head> 
+<body>
+<h1>Media Uploader Prototpe</h1>
+<BR>
+<input id="file_name" type="file" name="file_name"/>
+<BR><BR>
+<button id="upload_file" onclick="upload()">Upload</button>
+<script>
+  async function upload() {
+  let data = new FormData(); 
+  data.append("file", file_name.files[0]);
+  await fetch('/upload.php', {method: "POST", body: data}); 
+  alert('Success!');
+  }
+</script>
+</body> 
+</html>
