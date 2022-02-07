@@ -22,7 +22,7 @@ Content Uploader makes use of JavaScript based code to select and upload a file 
 
 # Project installation
 
-The package works as a stand-alone application which can be executed by opening the procided index.html file in any supported web-browser (Tested on Edge, Chrome, Mozilla, and Safari).
+The package works as a stand-alone application which can be executed by opening the provided index.html file in any supported web-browser (Tested on Edge, Chrome, Mozilla, and Safari).
 
 # Technologies
 
